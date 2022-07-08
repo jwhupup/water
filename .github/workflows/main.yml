@@ -14,7 +14,10 @@ jobs:
     steps:
     # 使用别人的action
     - uses: actions/checkout@v2
-    # 步骤名称
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.15.1
     - name: pnpm install
       # 步骤执行指令
       run: pnpm install
