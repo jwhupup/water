@@ -6,7 +6,7 @@
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <div>初始化code lint成功啦~~~</div>
+  <div>添加code lint成功啦@@@</div>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 
