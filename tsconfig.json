@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "composite": true,
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -14,5 +13,6 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true
   },
-  "include": ["packages/**/*", "play/**/*.ts", "play/**/*.tsx", "play/**/*.vue"]
+  "include": ["packages/**/*", "play/**/*.ts", "play/**/*.tsx", "play/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
