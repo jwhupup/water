@@ -22,6 +22,8 @@ module.exports = {
       true,
       {
         ignoreAtRules: [
+          'tailwind',
+          'windicss',
           'apply',
           'variants',
           'responsive',
@@ -88,11 +90,6 @@ module.exports = {
           },
         ],
       },
-    },
-    {
-      files: ['*.less', '**/*.less'],
-      customSyntax: 'postcss-less',
-      extends: ['stylelint-config-standard', 'stylelint-config-recommended-vue'],
     },
   ],
 };

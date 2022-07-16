@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "composite": true,
-    "jsx": "preserve",
     "module": "esnext",
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["play/vite.config.ts"]
 }

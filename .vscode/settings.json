@@ -22,10 +22,6 @@
     "markdown"
   ],
   "vite.devCommand": "pnpm run dev -- --",
-  "i18n-ally.localesPaths": "packages/locale/lang",
-  "i18n-ally.enabledParsers": ["ts"],
-  "i18n-ally.enabledFrameworks": ["vue", "vue-sfc"],
-  "i18n-ally.keystyle": "nested",
   "iconify.includes": ["ep"],
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -80,18 +76,13 @@
   "path-intellisense.mappings": {
     "@/": "${workspaceRoot}/src"
   },
+  "css.validate": false,
   "stylelint.enable": true,
-  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "stylelint.validate": ["css"],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
